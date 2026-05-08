@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Sri Lanka</title>
+    <meta name="description" content="Explore Sri Lanka with locally guided tours, curated packages, and unforgettable experiences across beaches, hill country, wildlife safaris, and ancient heritage sites." />
+    <meta name="keywords" content="Sri Lanka tours, Sri Lanka travel, Sri Lanka tour packages, Sri Lanka holidays, Sigiriya, Ella, Kandy, Galle, Yala safari" />
+    <meta name="author" content="Explore Sri Lanka" />
+    <link rel="canonical" href="https://exploresrilankaa.netlify.app/" />
+
+    <meta property="og:title" content="Explore Sri Lanka" />
+    <meta property="og:description" content="Locally guided tours and curated travel packages across Sri Lanka." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://exploresrilankaa.netlify.app/" />
+    <meta property="og:image" content="https://exploresrilankaa.netlify.app/assets/hero.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Explore Sri Lanka" />
+    <meta name="twitter:description" content="Locally guided tours and curated travel packages across Sri Lanka." />
+    <meta name="twitter:image" content="https://exploresrilankaa.netlify.app/assets/hero.jpg" />
+    <link rel="icon" type="image/png" href="./assets/srilanka-logo-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "TravelAgency",
+            "name": "Explore Sri Lanka",
+            "url": "https://exploresrilankaa.netlify.app/",
+            "telephone": "+94 77 123 4567",
+            "email": "hello@exploresrilanka.lk",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "No. 45, Galle Road, Colombo 03",
+                "addressLocality": "Colombo",
+                "addressCountry": "LK"
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+<nav class="navbar" id="navbar">
+    <div class="container">
+        <div class="nav-inner">
+
+            <!-- LOGO -->
+            <a href="#home" class="nav-logo">
+                <img src="./assets/srilanka-logo-removebg-preview.png" alt="Explore Sri Lanka Logo" class="logo-img" decoding="async">
+                <div class="logo-text">
+                    <span class="logo-main">Explore</span>
+                    <span class="logo-sub">Sri Lanka</span>
+                </div>
+            </a>
+
+            <!-- DESKTOP LINKS -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                <li><a href="#packages" class="nav-link">Packages</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- BOOK NOW -->
+            <div class="nav-cta">
+                <a href="#contact" class="btn-book">Book Now</a>
+            </div>
+
+            <!-- HAMBURGER -->
+            <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <ul>
+        <li><a href="#home" onclick="closeMenu()">Home</a></li>
+        <li><a href="#destinations" onclick="closeMenu()">Destinations</a></li>
+        <li><a href="#packages" onclick="closeMenu()">Packages</a></li>
+        <li><a href="#gallery" onclick="closeMenu()">Gallery</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+        <li><a href="#contact" class="mobile-book" onclick="closeMenu()">Book Now</a></li>
+    </ul>
+</div>
+
+<!-- ========================================
+     HERO SECTION
+======================================== -->
+<section class="hero" id="home">
+
+    <!-- Carousel Images -->
+    <div class="hero-carousel">
+        <img src="./assets/hero.jpg" class="carousel-img active" alt="Sri Lanka Coast" loading="eager" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/hero2.jpg" class="carousel-img" alt="Sri Lanka Waterfall" loading="lazy" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/Sigiriya.jpg" class="carousel-img" alt="Sigiriya Rock Fortress" loading="lazy" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/Ella.jpg" class="carousel-img" alt="Ella Tea Hills" loading="lazy" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/Mirissa.jpg" class="carousel-img" alt="Mirissa Beach" loading="lazy" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/Galle-Fort.jpg" class="carousel-img" alt="Galle Fort" loading="lazy" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/Kandy.jpg" class="carousel-img" alt="Kandy Hill Country" loading="lazy" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/anuradhapura.jpeg" class="carousel-img" alt="Anuradhapura Ancient City" loading="lazy" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/colombo-sri-lanka.webp" class="carousel-img" alt="Colombo Skyline" loading="lazy" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/Unawatuna.jpg" class="carousel-img" alt="Unawatuna Beach" loading="lazy" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/beach.jpg" class="carousel-img" alt="Tropical Beach" loading="lazy" decoding="async" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="./assets/ella-1.jpg" class="carousel-img" alt="Ella Nine Arch Bridge" loading="lazy" decoding="async" />
+    </div>
+    
+    <!-- Floating Social Icons -->
+    <!-- Removed Floating Social Icons from here -->
+
+    <div class="hero-content">
+
+        <!-- Small label above heading -->
+        <div class="hero-label">
+            <span class="label-dot"></span>
+            <span>Discover the Pearl of the Indian Ocean</span>
+        </div>
+
+        <!-- Main heading with animation -->
+        <h1 class="hero-title">
+            <span class="title-line">Your Dream</span>
+            <span class="title-line highlight">Sri Lanka</span>
+            <span class="title-line">Journey Awaits</span>
+        </h1>
+
+        <!-- Subheading -->
+        <p class="hero-subtitle">
+            Ancient temples, misty mountains, golden beaches and 
+            wild elephants all in one magical island.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-buttons">
+            <a href="#packages" class="btn-primary">
+                Explore Packages
+                <span class="btn-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+            <a href="#destinations" class="btn-secondary">
+                View Destinations
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Scroll down indicator -->
+    <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="scroll-line"></div>
+    </div>
+
+</section>
+
+<section class="stats-strip">
+    <div class="container">
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Destinations</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number">35+</span>
+                <span class="stat-label">Tour Packages</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number">5,000+</span>
+                <span class="stat-label">Happy Travelers</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number">8+</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     DESTINATIONS SECTION
+======================================== -->
+<section class="destinations" id="destinations">
+    <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header">
+            <div class="section-badge"><i class="fa-solid fa-map"></i> Top Destinations</div>
+            <h2 class="section-title">Unforgettable Destinations</h2>
+            <p class="section-subtitle">
+                From ancient rock fortresses to pristine beaches, 
+                every corner of Sri Lanka tells a story waiting to be discovered.
+            </p>
+        </div>
+
+        <!-- Destination Cards Grid -->
+        <div class="destinations-grid">
+
+            <!-- CARD 1 - Sigiriya -->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/Sigiriya.jpg" alt="Sigiriya Rock Fortress" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Central Province</span>
+                    </div>
+                    <h3 class="dest-name">Sigiriya</h3>
+                    <p class="dest-desc">The 8th wonder of the world. A magnificent ancient rock fortress rising 200m above the jungle.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(2,847 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 - Ella -->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/Ella.jpg" alt="Ella Sri Lanka" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Uva Province</span>
+                    </div>
+                    <h3 class="dest-name">Ella</h3>
+                    <p class="dest-desc">Misty mountains, tea plantations and the iconic Nine Arch Bridge.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(1,923 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3 - Mirissa -->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/Mirissa.jpg" alt="Mirissa Beach" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Southern Province</span>
+                    </div>
+                    <h3 class="dest-name">Mirissa</h3>
+                    <p class="dest-desc">Golden beaches, whale watching and stunning Indian Ocean sunsets.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
+                            <span class="rating-count">(1,654 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 4 - Kandy -->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/Temple-of-the-Tooth-kandy.jpg" alt="Kandy Temple" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Central Province</span>
+                    </div>
+                    <h3 class="dest-name">Kandy</h3>
+                    <p class="dest-desc">Sri Lanka's cultural capital. Home to the sacred Temple of the Tooth Relic.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(3,102 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 5 - Galle -->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/Galle-Fort.jpg" alt="Galle Fort" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Southern Province</span>
+                    </div>
+                    <h3 class="dest-name">Galle Fort</h3>
+                    <p class="dest-desc">A UNESCO World Heritage Site. Dutch colonial fortress by the ocean with charming streets.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(2,456 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 6 - Yala -->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/SriLankanElephant.jpg" alt="Yala National Park" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Southern Province</span>
+                    </div>
+                    <h3 class="dest-name">Yala National Park</h3>
+                    <p class="dest-desc">Home to leopards, elephants and crocodiles. Sri Lanka's most famous wildlife safari destination.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(2,134 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 7 - Nuwara Eliya -->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/nuwara-eliya.jpg" alt="Nuwara Eliya Tea Hills" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Central Province</span>
+                    </div>
+                    <h3 class="dest-name">Nuwara Eliya</h3>
+                    <p class="dest-desc">Little England of Sri Lanka. Lush tea estates, cool climate and colonial charm.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
+                            <span class="rating-count">(1,788 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 8 - Dambulla -->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/dambulla.jpg" alt="Dambulla Cave Temple" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Central Province</span>
+                    </div>
+                    <h3 class="dest-name">Dambulla</h3>
+                    <p class="dest-desc">The largest and best-preserved cave temple complex in Sri Lanka with over 150 Buddha statues.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(1,512 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 8 - Anuradhapura -->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/anuradhapura.jpeg" alt="Anuradhapura" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>North Central Province</span>
+                    </div>
+                    <h3 class="dest-name">Anuradhapura</h3>
+                    <p class="dest-desc">The ancient capital of Sri Lanka with over 2,000 years of history and stunning ruins.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(897 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--CARD 9 Colombo -->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/colombo-sri-lanka.webp" alt="Colombo" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Western Province</span>
+                    </div>
+                    <h3 class="dest-name">Colombo</h3>
+                    <p class="dest-desc">The bustling capital city with vibrant markets, colonial architecture, and modern skyscrapers.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(3,245 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--CARD 10 Unawatuna-->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/Unawatuna.jpg" alt="Unawatuna" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Southern Province</span>
+                    </div>
+                    <h3 class="dest-name">Unawatuna</h3>
+                    <p class="dest-desc">A beautiful beach town known for its pristine beaches, surf culture, and stunning sunsets.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(2,890 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--CARD 10 Sinharaja-->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/Sinharaja-Forest.jpg" alt="Sinharaja Forest" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Southern Provinces</span>
+                    </div>
+                    <h3 class="dest-name">Sinharaja Forest</h3>
+                    <p class="dest-desc">A lush rainforest known for its biodiversity and as a UNESCO World Heritage site.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(1,542 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--CARD 11 Hikkaduwa-->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/hikkaduwa-sri-lanka.webp" alt="Hikkaduwa" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Southern Province</span>
+                    </div>
+                    <h3 class="dest-name">Hikkaduwa</h3>
+                    <p class="dest-desc">
+                        Hikkaduwa is a coastal town located in the Southern Province of Sri Lanka, known for its beautiful beaches, coral reefs, and vibrant marine life. It is a popular destination for snorkeling, diving, and water sports.
+                    </p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(2,890 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--CARD 12 Horton place-->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/Harton_Plains.jpg" alt="Horton Place" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Horton Plains</span>
+                    </div>
+                    <h3 class="dest-name">Horton Plains</h3>
+                    <p class="dest-desc">A beautiful mountain range known for its tea plantations, waterfalls, and stunning views.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(1,234 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--CARD 13 Udawalawe-->
+            <div class="dest-card">
+                <div class="dest-card-image">
+                    <img src="./assets/Udawalawe.png" alt="Udawalawe" loading="lazy" decoding="async"/>
+                    <div class="dest-card-overlay"></div>
+                </div>
+                <div class="dest-card-info">
+                    <div class="dest-location">
+                        <span class="dest-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Udawalawe</span>
+                    </div>
+                    <h3 class="dest-name">Udawalawe</h3>
+                    <p class="dest-desc">A beautiful national park known for its wildlife, including elephants, leopards, and over 200 species of birds.</p>
+                    <div class="dest-footer">
+                        <div class="dest-rating">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-count">(1,234 reviews)</span>
+                        </div>
+                        <a href="#contact" class="dest-btn">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <!-- Bottom link -->
+        <div class="section-bottom">
+            <a href="#packages" class="btn-outline">
+                View All Packages 
+                <span><i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========================================
+     WHY CHOOSE US SECTION (with Unordered List)
+======================================== -->
+<section class="why-us" id="why-us">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-badge"><i class="fa-solid fa-star"></i> Why Travel With Us</div>
+            <h2 class="section-title">The <span class="text-gold">Explore Sri Lanka</span> Difference</h2>
+            <p class="section-subtitle">
+                We are a locally owned and operated travel agency with deep roots in every province of Sri Lanka.
+            </p>
+        </div>
+
+        <div class="why-grid">
+            <!-- Left: Image -->
+            <div class="why-image">
+                <img src="./assets/Explore-srilanka.webp" alt="Sri Lanka Tea Plantation" loading="lazy" decoding="async" />
+            </div>
+
+            <!-- Right: Unordered List -->
+            <div class="why-content">
+                <h3>What Makes Our Tours Special</h3>
+                <ul class="why-list">
+                    <li>
+                        <span class="check"><i class="fa-solid fa-check"></i></span>
+                        <div>
+                            <strong>100% Local Sri Lankan Guides</strong>
+                            <p>Our guides are born and raised here. They know every hidden waterfall, secret beach, and the best kottu roti spot in each town.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check"><i class="fa-solid fa-check"></i></span>
+                        <div>
+                            <strong>Customizable Itineraries</strong>
+                            <p>Want to skip the crowds at Sigiriya and visit Polonnaruwa instead? We adjust every tour to match your interests and pace.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check"><i class="fa-solid fa-check"></i></span>
+                        <div>
+                            <strong>Transparent Pricing No Hidden Fees</strong>
+                            <p>The price you see is the price you pay. Entrance tickets, meals, and transport are clearly listed upfront.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check"><i class="fa-solid fa-check"></i></span>
+                        <div>
+                            <strong>24/7 On-Ground Support</strong>
+                            <p>Our Colombo office is always reachable. Whether you need a last-minute hotel change or a doctor in Jaffna, we are one call away.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check"><i class="fa-solid fa-check"></i></span>
+                        <div>
+                            <strong>Sustainable & Ethical Tourism</strong>
+                            <p>We partner with family-run guesthouses and community projects so your money supports local villages directly.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     PACKAGES SECTION (with Table)
+======================================== -->
+<section class="packages" id="packages">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-badge"><i class="fa-solid fa-suitcase"></i> Tour Packages</div>
+            <h2 class="section-title">Curated <span class="text-gold">Sri Lanka</span> Packages</h2>
+            <p class="section-subtitle">
+                Choose from our most popular itineraries, or contact us for a fully customized experience.
+            </p>
+        </div>
+
+        <!-- Pricing Table -->
+        <div class="table-wrapper">
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Package Name</th>
+                        <th>Duration</th>
+                        <th>Destinations Covered</th>
+                        <th>Price (Per Person)</th>
+                        <th>Best For</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Classic Lanka</strong></td>
+                        <td>5 Days / 4 Nights</td>
+                        <td>Colombo, Kandy, Sigiriya, Dambulla</td>
+                        <td><span class="price">$450</span></td>
+                        <td>First-time visitors</td>
+                        <td><a href="#contact" class="table-btn">Book</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Beach & Bliss</strong></td>
+                        <td>7 Days / 6 Nights</td>
+                        <td>Mirissa, Galle, Unawatuna, Hikkaduwa</td>
+                        <td><span class="price">$620</span></td>
+                        <td>Surfers & sun seekers</td>
+                        <td><a href="#contact" class="table-btn">Book</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hill Country Escape</strong></td>
+                        <td>6 Days / 5 Nights</td>
+                        <td>Ella, Nuwara Eliya, Horton Plains, Tea Trails</td>
+                        <td><span class="price">$580</span></td>
+                        <td>Nature & hiking lovers</td>
+                        <td><a href="#contact" class="table-btn">Book</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wildlife Safari</strong></td>
+                        <td>4 Days / 3 Nights</td>
+                        <td>Yala, Udawalawe, Sinharaja Forest</td>
+                        <td><span class="price">$390</span></td>
+                        <td>Wildlife photographers</td>
+                        <td><a href="#contact" class="table-btn">Book</a></td>
+                    </tr>
+                    <tr class="featured-row">
+                        <td><strong>Grand Island Tour</strong> <span class="badge-featured">Popular</span></td>
+                        <td>12 Days / 11 Nights</td>
+                        <td>All major + off-beat locations</td>
+                        <td><span class="price">$1,150</span></td>
+                        <td>The complete experience</td>
+                        <td><a href="#contact" class="table-btn">Book</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="table-note">
+            All packages include accommodation, daily breakfast, private air-conditioned transport, and an English-speaking guide.
+            <a href="#contact">Request a full itinerary <i class="fa-solid fa-arrow-right"></i></a>
+        </p>
+    </div>
+</section>
+
+<!-- ========================================
+     GALLERY SECTION
+======================================== -->
+<section class="gallery" id="gallery">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-badge"><i class="fa-solid fa-camera"></i> Gallery</div>
+            <h2 class="section-title">Moments from <span class="text-gold">Sri Lanka</span></h2>
+            <p class="section-subtitle">
+                A glimpse into the landscapes, wildlife, and culture that await you.
+            </p>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="./assets/hero.jpg" alt="Sri Lanka Coastline" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Golden Coastline</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/SriLankanElephant.jpg" alt="Sri Lankan Elephant" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Wild Elephants in Udawalawe</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/authentic-rice-curry-srilanka.jpg" alt="Sri Lankan Food" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Authentic Rice & Curry</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/Temple-of-the-Tooth-kandy.jpg" alt="Kandy Temple" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Temple of the Tooth, Kandy</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/hero2.jpg" alt="Sri Lanka Waterfall" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Hidden Waterfalls of the Hill Country</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/Galle-Fort.jpg" alt="Galle Fort" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Galle Fort at Sunset</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/Sigiriya.jpg" alt="Sigiriya Rock Fortress" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Sigiriya Rock Fortress</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/colombo-sri-lanka.webp" alt="Colombo Sri Lanka" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Colombo Sri Lanka</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/dambulla.jpg" alt="Dambulla Cave Temple" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Dambulla Cave Temple</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/beach.jpg" alt="Sri Lankan Beach" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Sri Lankan Beach</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/nuwaraeliya.jpg" alt="Nuwara Eliya" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Nuwara Eliya</div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/ella-1.jpg" alt="Ella Nine Arch Bridge" loading="lazy" decoding="async" />
+                <div class="gallery-caption">Ella Nine Arch Bridge</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     TESTIMONIALS SECTION
+======================================== -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-badge"><i class="fa-solid fa-comment"></i> Testimonials</div>
+            <h2 class="section-title">What Our <span class="text-gold">Travelers</span> Say</h2>
+        </div>
+        <div class="testimonials-carousel-wrapper">
+            <button class="t-carousel-btn t-prev" id="tPrev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="testimonials-track" id="testimonialsTrack">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="testimonial-content"><i class="fa-solid fa-quote-left"></i><p>An incredible experience from start to finish. Our guide was knowledgeable and the itinerary was perfect!</p></div>
+                    <div class="testimonial-author"><img src="https://i.pravatar.cc/150?u=1" alt="Sarah J."><div><h4>Sarah Johnson</h4><span>United Kingdom</span></div></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="testimonial-content"><i class="fa-solid fa-quote-left"></i><p>The Hill Country escape was a dream. Waking up to tea plantation views is something I'll never forget.</p></div>
+                    <div class="testimonial-author"><img src="https://i.pravatar.cc/150?u=2" alt="Mark T."><div><h4>Mark Thompson</h4><span>Australia</span></div></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                    <div class="testimonial-content"><i class="fa-solid fa-quote-left"></i><p>Truly ethical tourism. We loved staying at the local guesthouses and meeting the wonderful families.</p></div>
+                    <div class="testimonial-author"><img src="https://i.pravatar.cc/150?u=3" alt="Elena R."><div><h4>Elena Rodriguez</h4><span>Spain</span></div></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="testimonial-content"><i class="fa-solid fa-quote-left"></i><p>The wildlife safari in Yala was breathtaking. We saw leopards and elephants up close!</p></div>
+                    <div class="testimonial-author"><img src="https://i.pravatar.cc/150?u=4" alt="James K."><div><h4>James Kim</h4><span>United States</span></div></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="testimonial-content"><i class="fa-solid fa-quote-left"></i><p>Galle Fort at sunset was magical. The team arranged a perfect beachside dinner for our anniversary.</p></div>
+                    <div class="testimonial-author"><img src="https://i.pravatar.cc/150?u=5" alt="Priya M."><div><h4>Priya Malhotra</h4><span>India</span></div></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="testimonial-content"><i class="fa-solid fa-quote-left"></i><p>Everything was seamless from airport pickup to drop-off. The 12-day tour covered all the best spots.</p></div>
+                    <div class="testimonial-author"><img src="https://i.pravatar.cc/150?u=6" alt="Hans W."><div><h4>Hans Weber</h4><span>Germany</span></div></div>
+                </div>
+            </div>
+            <button class="t-carousel-btn t-next" id="tNext" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="t-carousel-dots" id="tDots"></div>
+    </div>
+</section>
+
+<!-- ========================================
+     CONTACT SECTION
+======================================== -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <div class="section-badge"><i class="fa-solid fa-paper-plane"></i> Get in Touch</div>
+                <h2 class="section-title" style="text-align:left;margin-bottom:12px;">Start Your Journey</h2>
+                <p class="section-subtitle" style="text-align:left;margin-bottom:28px;">
+                    Fill in the form and our team will reply within 24 hours with a personalized itinerary and quote.
+                </p>
+
+                <div class="info-block">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <div>
+                        <strong>Office Address</strong>
+                        <p>No. 45, Galle Road, Colombo 03, Sri Lanka</p>
+                    </div>
+                </div>
+                <div class="info-block">
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <div>
+                        <strong>Email</strong>
+                        <p>hello@exploresrilanka.lk</p>
+                    </div>
+                </div>
+                <div class="info-block">
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <div>
+                        <strong>Phone / WhatsApp</strong>
+                        <p>+94 77 123 4567</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="bookingForm" onsubmit="return validateForm(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="e.g. John Doe" />
+                        <span class="error-msg" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" />
+                        <span class="error-msg" id="emailError"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="package">Interested Package</label>
+                    <select id="package" name="package">
+                        <option value="">Select a package...</option>
+                        <option value="classic">Classic Lanka — 5 Days</option>
+                        <option value="beach">Beach & Bliss — 7 Days</option>
+                        <option value="hill">Hill Country Escape — 6 Days</option>
+                        <option value="wildlife">Wildlife Safari — 4 Days</option>
+                        <option value="grand">Grand Island Tour — 12 Days</option>
+                        <option value="custom">Fully Custom Trip</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us about your travel dates, group size, and any special requests..."></textarea>
+                    <span class="error-msg" id="messageError"></span>
+                </div>
+                <button type="submit" class="btn-submit">Send Inquiry</button>
+                <p class="form-note" id="formSuccess"></p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     FOOTER
+======================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="./assets/srilanka-logo-removebg-preview.png" alt="Explore Sri Lanka Logo" class="logo-img">
+                    <div class="logo-text">
+                        <span class="logo-main">Explore</span>
+                        <span class="logo-sub">Sri Lanka</span>
+                    </div>
+                </div>
+                <p>Authentic Sri Lankan travel experiences crafted by locals who truly know the island.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cancellation Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Explore Sri Lanka. All rights reserved. Designed for educational purposes.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp Floating Chat Button -->
+<a href="https://wa.me/94771234567?text=Hi%20Explore%20Sri%20Lanka%2C%20I%20have%20a%20question%20about%20your%20tours!" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Ask a question on WhatsApp</span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
